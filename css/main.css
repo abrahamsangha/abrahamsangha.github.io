@@ -19,6 +19,39 @@ body {
   text-align: center;
 }
 
+/*body {
+  background: url(ARS.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+#bg {
+  float: right;
+  width: 50%;
+  /*position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;*/
+}
+#bg img {
+  width: 100%;
+/*  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0.4;*/
+  /*filter:alpha(opacity=40);*/
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
@@ -58,9 +91,9 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
+  width: 50%;
   line-height: 1.5em;
+  float: left;
 }
 
 .site .header a {
@@ -71,6 +104,9 @@ ul.posts span {
 .site .header h1.title {
   display: inline-block;
   margin-bottom: 2em;
+  font-size: 4em;
+  line-height: 1.2em;
+  text-align: right;
 }
 
 .site .header h1.title a {
@@ -157,4 +193,15 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+@media screen and (max-width: 480px) { /* Specific to this particular image */
+  #bg {
+    float: none;
+    width: 100%;
+  }
+  .site {
+    float: none;
+    width: 100%;
+  }
 }
