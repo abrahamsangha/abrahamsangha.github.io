@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #f1c40f;
+  background-color: #ecf0f1;
   font-family: 'Permanent Marker', cursive;
   font-size: medium;
   text-align: center;
@@ -36,26 +36,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 { margin-bottom: 0.5em; }
 p { margin: 1em 0; }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
 
 /*****************************************************************************/
 /*
@@ -96,7 +76,7 @@ ul.posts span {
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
-  font-family: Garamond;
+  /*font-family: Garamond;*/
 
 }
 
