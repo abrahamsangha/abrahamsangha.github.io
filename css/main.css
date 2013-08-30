@@ -13,54 +13,29 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  background-color: #f1c40f;
+  font-family: 'Permanent Marker', cursive;
+  font-size: medium;
   text-align: center;
 }
 
-/*body {
-  background: url(ARS.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color: #ecf0f1;}
 
 #bg {
   float: right;
   width: 50%;
-  /*position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;*/
 }
 #bg img {
   width: 100%;
-/*  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
-  opacity: 0.4;*/
-  /*filter:alpha(opacity=40);*/
 }
-
-
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 { margin-bottom: 0.5em; }
 p { margin: 1em 0; }
-
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
 
 /*****************************************************************************/
 /*
@@ -90,40 +65,25 @@ ul.posts span {
 
 .site {
   font-size: 115%;
-  text-align: justify;
+  text-align: center;
   width: 50%;
   line-height: 1.5em;
   float: left;
 }
 
-.site .header a {
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .site .header h1.title {
   display: inline-block;
   margin-bottom: 2em;
+  margin-top: 0.4em;
   font-size: 4em;
   line-height: 1.2em;
-  text-align: right;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  width: 100%;
 }
 
-.site .header h1.title a {
-  color: #a00;
-}
-
-.site .header h1.title a:hover {
-  color: #000;
-}
-
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-.site .header a.extra:hover {
-  color: #000;
+.header {
+  height: 220px;
 }
 
 .site .meta {
@@ -131,16 +91,28 @@ ul.posts span {
 }
 
 .site .footer {
-  font-size: 80%;
-  color: #666;
+  font-size: 100%;
+  color: black;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  font-family: Garamond;
+
+}
+
+.site #info {
+  text-align: center;
+
 }
 
 .site .footer .contact {
   float: left;
   margin-right: 3em;
+  margin-left: 1em;
+}
+
+li {
+  display: inline;
 }
 
 .site .footer .contact a {
@@ -157,45 +129,9 @@ ul.posts span {
   border: 0;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
+/* Responsive */
 
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
-}
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
-}
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-.post pre.terminal code {
-  background-color: #333;
-}
-
-@media screen and (max-width: 480px) { /* Specific to this particular image */
+@media screen and (max-width: 530px) { /* Specific to this particular image */
   #bg {
     float: none;
     width: 100%;
