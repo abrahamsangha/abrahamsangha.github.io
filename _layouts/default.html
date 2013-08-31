@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Google font -->
         <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap icons -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+        <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-43659913-1', 'abrahamsangha.github.io');
+          ga('send', 'pageview');
+        </script>
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Abraham Sangha</title>
@@ -16,49 +31,7 @@
 
     </head>
     <body>
-        <div id="bg">
-          <img src ="css/ARS4.jpg" alt="Dev Life">
-        </div>
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title">ABRAHAM SANGHA</h1>
-            </div>
-            <div class="bio" id="home">
-              <h1><p>I work as a web developer because I'm a natural engineer and the internet combines the most fascinating technological challenges with the greatest communicative sweep that I can imagine.</p>
-              <p>I'm an autodidact that loves pair programming. I excel at public speaking and prefer daily scrum meetings. My tools of the trade currently are Ruby, Rails, JavaScript, HTML, and CSS.</p></h1>
-              <!-- <ul class="posts">
-                <li><span>28 Aug 2013</span> &raquo; <a href="/jekyll/update/2013/08/28/welcome-to-jekyll.html">Welcome to Jekyll!</a></li>
-              </ul> -->
-            </div>
-            <div class="footer">
-              <div id="info">
-                <!-- <div class="contact" id="categories">
-                  <p>
-                    Email<br />
-                    GitHub<br />
-                    Twitter<br />
-                    LinkedIn<br />
-                    Resume
-                  </p>
-                </div> -->
-                <div class="contact" id="links">
-                  <ul>
-                    <li><a href="mailto:abraham.sangha@gmail.com"><i class="icon-reply icon-2x"></i> </a><br /></li>
-                    <li><a href="http://github.com/abrahamsangha"><i class="icon-github-alt icon-2x"></i></a><br /></li>
-                    <li><a href="http://twitter.com/abrahamsangha"><i class="icon-twitter icon-2x"></i></a><br /></li>
-                    <li><a href="http://www.linkedin.com/pub/abraham-sangha/4/a71/147"><i class="icon-linkedin icon-2x"></i></a><br /></li>
-                    <li><a href="http://google.com"><i class="icon-file-text icon-2x"></i> </a><br /></li>
-                    </ul>
-                </div>
-              </div>
-              <div id="quote">
-<!--                 <h2>"The worthwhile problems are the ones you can really solve or help solve, the ones you can really contribute something to. ... No problem is too small or too trivial if we can really do something about it." - Richard Feynman</h2>
- -->            <h2>"...if we make good things, it is not only to the credit of science; it is also to the credit of the moral choice which led us to the good work." - Richard Feynman</h2>
-              </div>
-            </div>
-        </div>
-      </div> <!-- /container -->
-
+        <!-- /container -->
+      {{ content }}
     </body>
 </html>
