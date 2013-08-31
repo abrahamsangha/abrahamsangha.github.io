@@ -3,8 +3,8 @@ layout: default
 title: Resume
 ---
 
-<div class="resume">
+<!-- <div class="resume"> -->
 
 {% include ARSresume.md %}
 
-</div>
+<!-- </div> -->
