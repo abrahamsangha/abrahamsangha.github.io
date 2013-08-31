@@ -16,12 +16,18 @@ body {
   background-color: #ecf0f1;
   font-family: 'Permanent Marker', cursive;
   font-size: medium;
-  text-align: center;
 }
 
-a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
-a:hover {color: #ecf0f1;}
+a:link {
+  text-decoration:none;
+  color: #3498db;
+
+}
+a:visited {
+  text-decoration:none;
+  color: #3498db;
+}
+a:hover {color: #f1c40f;}
 
 #bg {
   float: right;
@@ -66,6 +72,13 @@ p { margin: 1em 0; }
   height: 220px;
 }
 
+.bio {
+  text-align: center;
+}
+
+p {
+  margin-left: 1em;
+}
 .site .meta {
   color: #aaa;
 }
@@ -89,10 +102,6 @@ p { margin: 1em 0; }
   float: left;
   margin-right: 3em;
   margin-left: 1em;
-}
-
-li {
-  display: inline;
 }
 
 .site .footer .contact a {
