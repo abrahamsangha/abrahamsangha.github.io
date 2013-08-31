@@ -41,7 +41,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 0.5em; }
-p { margin: 1em 0; }
+h2 { margin: 0.5em;}
+p { margin: 1em; }
 
 /*****************************************************************************/
 /*
@@ -76,8 +77,12 @@ p { margin: 1em 0; }
   text-align: center;
 }
 
-p {
-  margin-left: 1em;
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
 }
 .site .meta {
   color: #aaa;

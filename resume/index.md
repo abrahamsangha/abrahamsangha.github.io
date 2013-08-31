@@ -1,10 +1,6 @@
 ---
-layout: default
+layout: resume
 title: Resume
 ---
 
-<!-- <div class="resume"> -->
-
 {% include ARSresume.md %}
-
-<!-- </div> -->
