@@ -2,7 +2,7 @@
 
 ##Abraham Sangha, Web Developer
 
-[Email](abrahamsangha@gmail.com)
+[Email](mailto:abrahamsangha@gmail.com)
 
 [Web](http://abrahamsangha.github.io/)
 
@@ -12,7 +12,7 @@
 
     I am an engineer in search of a junior web developer position. My tools currently include Ruby, Rails, JavaScript, HTML, CSS, Git, TDD, and Agile methodologies.
 
-### //Project
+###//Project
 
    [Dev Bootcamp API](https://github.com/Devbootcamp/api)
 
@@ -34,16 +34,19 @@
     This Rails project utilizes Object-Oriented JavaScript and the Redis server to persist data and is tested using Jasmine.
 
 
-### //Experience
+###//Experience
 
-####Teachers' Assistant
+####Teacher's Assistant
+
 #####Dev Bootcamp Chicago, August 2013
     Mentored new developers through introductory computer science topics such as iteration, recursion, regex, OOP, and SQL
+
 ####Civil Engineer
+
 #####Siebert Engineers, 2004 - 2007
     Designed drainage and land development plans, met with clients, utilized AutoCAD
 
-### //Education
+###//Education
 
 ####Dev Bootcamp, Summer 2013
     800+ hours of immersive web development, including pair programming, TDD, and Agile methodology
