@@ -41,7 +41,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 0.5em; }
-h2 { margin: 0.5em;}
+
+h2 {
+  margin: 0.5em;
+  float: left;
+}
 p { margin: 1em; }
 
 /*****************************************************************************/
@@ -84,6 +88,18 @@ ul {
 li {
   display: inline-block;
 }
+
+i {
+  margin: 0.25em;
+  color: #c0392b;
+}
+
+i:hover {color: #f1c40f;}
+
+.icon-text {
+  font-size: 50%;
+  margin: 0em 0.25em;
+}
 .site .meta {
   color: #aaa;
 }
@@ -121,6 +137,11 @@ li {
 
 .site .footer .rss img {
   border: 0;
+}
+
+.contact {
+  width: 100%;
+  margin: 1em;
 }
 
 /* Responsive */
