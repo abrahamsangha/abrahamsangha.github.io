@@ -12,18 +12,23 @@
 
     I am an engineer in search of a junior web developer position. My tools currently include Ruby, Rails, JavaScript, HTML, CSS, Git, TDD, and Agile methodologies.
 
-###//Project
+###//Projects
 
-   [Dev Bootcamp API](https://github.com/Devbootcamp/api)
+   [Dev Bootcamp API](https://github.com/Devbootcamp/api)  
 
-   [Dev Bootcamp Developer Site](https://github.com/Devbootcamp/developer)
+    The Dev Bootcamp API project includes a RESTful API application that returns JSON. Unit and integration tests are done with RSpec and Capybara.
+
+   [Dev Bootcamp Developer Site](http://developer.devbootcamp.com/documentation)
+   
+    A friendly, OAuth 2-enabled developers' portal application with documentation, code examples, and support
 
    [DBC-Ruby Gem](https://github.com/Devbootcamp/dbc-ruby)
+   
+    A published client gem, called, DBC-Ruby   
 
    [OmniAuth-DBC](https://github.com/Devbootcamp/omniauth-dbc)
 
-
-    The Dev Bootcamp API project includes a RESTful API application; a friendly, OAuth2-enabled developers' portal application with documentation, code examples, and support; a published client gem, called, DBC-Ruby; a published OmniAuth strategy gem, called Omniauth-DBC; and a skeleton app for future developers. Unit and integration tests are done with RSpec and Capybara.
+    A published OmniAuth strategy gem, called Omniauth-DBC
 
    [Rap Laughs](https://github.com/priyamathew/raplaughs)
 
@@ -36,14 +41,10 @@
 
 ###//Experience
 
-####Teacher's Assistant
-
-#####Dev Bootcamp Chicago, August 2013
+####Teacher's Assistant, Dev Bootcamp Chicago, August 2013
     Mentored new developers through introductory computer science topics such as iteration, recursion, regex, OOP, and SQL
 
-####Civil Engineer
-
-#####Siebert Engineers, 2004 - 2007
+####Civil Engineer, Siebert Engineers, 2004 - 2007
     Designed drainage and land development plans, met with clients, utilized AutoCAD
 
 ###//Education

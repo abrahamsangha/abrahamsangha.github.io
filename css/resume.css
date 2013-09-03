@@ -71,3 +71,7 @@ a {
 	font-size: 125%;
 
 }
+
+footer {
+	min-height: 2em;
+}
