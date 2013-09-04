@@ -10,7 +10,7 @@
 
 ###//Pro.file
 
-    I am an engineer in search of a junior web developer position. My tools currently include Ruby, Rails, JavaScript, HTML, CSS, Git, TDD, and Agile methodologies.
+    I am an engineer in search of a junior web developer position. My tools currently include Ruby, Rails, JavaScript, HTML, CSS, Git, TDD, pair programming and Agile methodologies. I enjoy public speaking and leading a team.
 
 ###//Projects
 
