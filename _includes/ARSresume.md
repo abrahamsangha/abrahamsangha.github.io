@@ -24,11 +24,7 @@
 
    [DBC-Ruby Gem](https://github.com/Devbootcamp/dbc-ruby)
    
-    A published client gem, called, DBC-Ruby   
-
-   [OmniAuth-DBC](https://github.com/Devbootcamp/omniauth-dbc)
-
-    A published OmniAuth strategy gem, called Omniauth-DBC
+    A published client gem called DBC-Ruby   
 
    [Rap Laughs](https://github.com/priyamathew/raplaughs)
 
