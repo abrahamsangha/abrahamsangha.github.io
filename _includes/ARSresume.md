@@ -1,5 +1,4 @@
 
-
 ##Abraham Sangha, Web Developer
 
 [Email](mailto:abrahamsangha@gmail.com)
@@ -10,9 +9,23 @@
 
 ###//Pro.file
 
-    I am an engineer in search of a junior web developer position. My tools currently include Ruby, Rails, JavaScript, HTML, CSS, Git, TDD, pair programming and Agile methodologies. I enjoy public speaking and leading a team.
+    I am an engineer in search of a web developer position. My tools currently include Ruby, Rails, JavaScript, AngularJS, Solr, MySQL, HTML, CSS, Git, TDD, pair programming and Agile methodologies. I enjoy public speaking and seek to constantly grow as a person.
 
-###//Projects
+###//Experience
+
+####Application Developer, Apartments.com, September 2013 to present
+    Projects include: 
+    A Single Sign-On for internal applications utilizing Devise
+    A User Management application for creating and updating a user's application permissions
+    A performant, scalable Ruby + Solr Search API 
+    
+####Teacher's Assistant, Dev Bootcamp Chicago, August 2013
+    Mentored new developers through introductory computer science topics such as iteration, recursion, regex, OOP, and SQL
+
+####Civil Engineer, Siebert Engineers, 2004 - 2007
+    Designed drainage and land development plans, met with clients, utilized AutoCAD
+    
+###//Personal Projects
 
    [Dev Bootcamp API](https://github.com/Devbootcamp/api)  
 
@@ -35,14 +48,6 @@
     This Rails project utilizes Object-Oriented JavaScript and the Redis server to persist data and is tested using Jasmine.
 
 
-###//Experience
-
-####Teacher's Assistant, Dev Bootcamp Chicago, August 2013
-    Mentored new developers through introductory computer science topics such as iteration, recursion, regex, OOP, and SQL
-
-####Civil Engineer, Siebert Engineers, 2004 - 2007
-    Designed drainage and land development plans, met with clients, utilized AutoCAD
-
 ###//Education
 
 ####Dev Bootcamp, Summer 2013
@@ -53,3 +58,7 @@
 
 ####University of Illinois at Urbana-Champaign, 1999 - 2003
     Bachelor of Science in General Engineering
+
+###//Public Speaking
+
+    ChicagoRuby, Groupon's Geekfest!, Refresh Chicago, and Dev Bootcamp Chicago Speaker Series
