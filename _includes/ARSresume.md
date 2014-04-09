@@ -1,4 +1,3 @@
-
 ##Abraham Sangha, Web Developer
 
 [Email](mailto:abrahamsangha@gmail.com)
@@ -15,9 +14,9 @@
 
 ####Application Developer, Apartments.com, September 2013 to present
     Projects include: 
-    A Single Sign-On for internal applications utilizing Devise
-    A User Management application for creating and updating a user's application permissions
-    A performant, scalable Ruby + Solr Search API 
+        A Single Sign-On portal/API to authenticate and authorize users and internal applications
+        A User Management application for creating and updating a user's application permissions
+        A performant, scalable Ruby + Solr Search API 
     
 ####Teacher's Assistant, Dev Bootcamp Chicago, August 2013
     Mentored new developers through introductory computer science topics such as iteration, recursion, regex, OOP, and SQL
