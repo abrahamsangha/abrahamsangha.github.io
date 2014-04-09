@@ -16,8 +16,14 @@
     
 ```    
 Projects include: 
+```
+```
 A Single Sign-On portal/API to authenticate and authorize users and internal applications
+```
+```
 A User Management application for creating and updating a user's application permissions
+```
+```
 A performant, scalable Ruby + Solr Search API 
 ```    
 ####Teacher's Assistant, Dev Bootcamp Chicago, August 2013
